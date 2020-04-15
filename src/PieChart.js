@@ -1,9 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { Pie } from "react-chartjs-2";
 const PieChart = ({ dataForPieChart }) => {
-  console.log("i am callled");
-  console.log("i got this", dataForPieChart);
-  let dataForPieChart2 = {
+  //this hardcoded object is for testing purpose
+  /* let dataForPieChart2 = {
     labels: ["a", "b"],
     datasets: [
       {
@@ -12,7 +11,7 @@ const PieChart = ({ dataForPieChart }) => {
         backgroundColor: ["rgba(20,50,45,20)", "rgba(34,75,14,45)"],
       },
     ],
-  };
+  }; */
   return (
     <div className="card" style={{ height: "300px" }}>
       <div
